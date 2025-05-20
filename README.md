@@ -134,8 +134,3 @@ All endpoints are documented in the OpenAPI documentation (`/docs`).
 - Integration with other vector DBs (e.g., Pinecone, Weaviate) can be achieved by adapting the vector search logic.
 - Authentication, rate limiting, or monitoring can be added as needed for the deployment environment.
 - The RAG pipeline can be extended with a generative model for Q&A or recommendations.
-
----
-
-## License
-MIT (or another preferred license) 
