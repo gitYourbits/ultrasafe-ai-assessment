@@ -38,8 +38,8 @@ A production-ready FastAPI application for managing a product catalog with advan
 ## Installation
 1. The repository should be cloned:
    ```bash
-   git clone <your-repo-url>
-   cd ultrasafeai
+   git clone https://github.com/gitYourbits/ultrasafeai-semanticsearch-api.git
+   cd ultrasafeai-semanticsearch-api
    ```
 2. A virtual environment is recommended and can be created as follows:
    ```bash
@@ -58,7 +58,7 @@ A production-ready FastAPI application for managing a product catalog with advan
    - The `products.csv` file should be placed in the `app/` directory (already present by default).
    - The data loader is executed:
      ```bash
-     python app/utils.py --force    # force argument not required if loading the data first time
+     python app/utils.py --force    # force tag is not required if loading the data for first time
      ```
    - This command creates the SQLite database, loads all products, and builds the FAISS index for semantic search.
 
@@ -134,3 +134,4 @@ All endpoints are documented in the OpenAPI documentation (`/docs`).
 - Integration with other vector DBs (e.g., Pinecone, Weaviate) can be achieved by adapting the vector search logic.
 - Authentication, rate limiting, or monitoring can be added as needed for the deployment environment.
 - The RAG pipeline can be extended with a generative model for Q&A or recommendations.
+
